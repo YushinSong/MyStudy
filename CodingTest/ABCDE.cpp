@@ -14,7 +14,7 @@ void dfs(int index, int cnt) // 벡터의 인덱스, 깊이 수
 {
 	if (cnt >= GOAL)
 	{
-		cout << 1 << endl;
+		cout << "1" << endl;
 		exit(0);
 	}
 	for (int i = 0; i < relation[index].size(); ++i) // index의 친구 수만큼 검색
@@ -47,5 +47,5 @@ int main()
 		visited[i] = false;
 	}
 
-	cout << 0 << endl;
+	cout << "0" << endl;
 }
